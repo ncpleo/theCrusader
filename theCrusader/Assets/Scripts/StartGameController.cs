@@ -7,7 +7,7 @@ public class StartGameController : MonoBehaviour
 {
     public void OnClickStart()
     {
-        SceneManager.LoadScene("MapScene");
+        SceneManager.LoadScene("BackgroundInfo");
         print("Started");
     }
 }

@@ -9,6 +9,7 @@ TagManager:
   - Battle2
   - Battle3
   - Battle1
+  - Event1
   layers:
   - Default
   - TransparentFX

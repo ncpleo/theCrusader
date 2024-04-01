@@ -9,14 +9,20 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: 00289513fb8ce834dae1b1fab359a8d7
   - enabled: 1
+    path: Assets/Scenes/BackgroundInfo.unity
+    guid: 068aba332c6b5454099af4dcd413b8e7
+  - enabled: 1
     path: Assets/Scenes/MapScene.unity
     guid: e2fb7120dadc0ab4eaea9f0dc82af607
   - enabled: 1
     path: Assets/Scenes/MapScene2.unity
-    guid: 649cbb8c0b53ac8408a4e655eae6964e
+    guid: 67fa270cca4c9f3459ddd5eb802d34df
   - enabled: 1
     path: Assets/Scenes/MapScene3.unity
-    guid: 61365bbc00d220b49ac957e1a5481d17
+    guid: 9476288e2bf08ee45b14be294e924b29
+  - enabled: 1
+    path: Assets/Scenes/MapScene4.unity
+    guid: 7a87822c91279114d9122e2aa5c3d738
   - enabled: 1
     path: Assets/Scenes/BattleScene1.unity
     guid: b663536f22899504d9a839dec99795aa
@@ -26,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BattleScene3.unity
     guid: 9ea4f10f3b35ccd43aa3611170aed6ce
+  - enabled: 1
+    path: Assets/Scenes/EventScene1.unity
+    guid: 4edfde69d60e9b34f9c9eb3e4a11c0b5
   - enabled: 1
     path: Assets/Scenes/WinScene.unity
     guid: 42cac8479911c9341bc0ebf953a79616

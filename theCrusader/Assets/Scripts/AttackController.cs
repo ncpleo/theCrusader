@@ -27,7 +27,7 @@ public class AttackController : MonoBehaviour
             }
             else if (level == 2)
             {
-                SceneManager.LoadScene("MapScene3");
+                SceneManager.LoadScene("MapScene4");
             }else if (level == 3)
             {
                 SceneManager.LoadScene("WinScene");

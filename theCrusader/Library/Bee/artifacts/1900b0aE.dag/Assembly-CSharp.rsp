@@ -363,12 +363,17 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Fonts/Script/scriptTexttest.cs"
 "Assets/Scripts/AttackController.cs"
+"Assets/Scripts/AutoScroll.cs"
+"Assets/Scripts/DialogueController.cs"
 "Assets/Scripts/EnterBattle.cs"
 "Assets/Scripts/PlayerAttackState.cs"
 "Assets/Scripts/PlayerDeadState.cs"
 "Assets/Scripts/PlayerFollowState.cs"
 "Assets/Scripts/PlayerIdleState.cs"
 "Assets/Scripts/StartGameController.cs"
+"Assets/Scripts/TextWriter.cs"
+"Assets/Scripts/UI.cs"
+"Assets/Scripts/Uirotation.cs"
 "Assets/Scripts/UnitMovement.cs"
 -langversion:9.0
 

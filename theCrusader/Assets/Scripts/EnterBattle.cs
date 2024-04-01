@@ -12,14 +12,20 @@ public class enterBattle : MonoBehaviour
         {
             SceneManager.LoadScene("BattleScene1");
 
-        }else if (other.gameObject.tag == "Battle2")
+        }
+        else if (other.gameObject.tag == "Battle2")
         {
             SceneManager.LoadScene("BattleScene2");
 
-        }else if (other.gameObject.tag == "Battle3")
+        }
+        else if (other.gameObject.tag == "Battle3")
         {
             SceneManager.LoadScene("BattleScene3");
 
+        }
+        else if (other.gameObject.tag == "Event1")
+        {
+            SceneManager.LoadScene("EventScene1");
         }
     }
 }
