@@ -43,6 +43,7 @@ public class PlayerAttackState : StateMachineBehaviour
             if(_tag == "Enemy" && timer < 0)
             {
                 animator.SetBool("IsDead", true);
+
             }
         }
     }

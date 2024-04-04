@@ -410,6 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95229b639ed03e74593aa3808dd01534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _tag: 
   stopAttackingDistance: 1.4
   timer: 0
 --- !u!114 &7402865044675948869

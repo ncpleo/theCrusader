@@ -35,6 +35,7 @@ public class PlayerFollowState : StateMachineBehaviour
         {
             _agent.SetDestination(animator.transform.position);
             animator.SetBool("IsAttack", true);
+
         }
 
     }

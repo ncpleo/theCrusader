@@ -14,6 +14,8 @@ public class AutoScroll : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI mainText;
 
+    public BackgroundMusic bgm;
+
 
     void Start()
     {
@@ -25,9 +27,15 @@ public class AutoScroll : MonoBehaviour
         if (rectTransform.localPosition.y < boundaryTextEnd)
         {
             rectTransform.Translate(Vector3.up * speed * Time.deltaTime);
-        }else
+        }
+        else
         {
-            SceneManager.LoadScene("MapScene");
+            StartCoroutine(BackgroundMusic.FadeOut(bgm.audioSource, 3f));
+            if (!bgm.audioSource.isPlaying)
+            {
+                SceneManager.LoadScene("MapScene");
+            }
+
         }
     }
 }
