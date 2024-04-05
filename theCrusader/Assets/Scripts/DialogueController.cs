@@ -13,7 +13,16 @@ public class DialogueController : MonoBehaviour
     public Animator DialogueAnimator;
     private bool StartDialogue = true;
 
-    
+    AudioSource audioSource;
+    public AudioClip press;
+    public AudioClip item;
+    public UnityEngine.UI.Image image;
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -26,6 +35,7 @@ public class DialogueController : MonoBehaviour
             else
             {
                 NextSentence();
+                audioSource.PlayOneShot(press);
             }
         }
     }
@@ -44,6 +54,11 @@ public class DialogueController : MonoBehaviour
             Index = 0;
             //StartDialogue = true;
             SceneManager.LoadScene("MapScene3");
+        }
+
+        if (Index == 3) {
+            image.enabled = true;
+            audioSource.PlayOneShot(item);
         }
     }
 

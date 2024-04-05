@@ -365,6 +365,7 @@
 "Assets/Scripts/AttackController.cs"
 "Assets/Scripts/AutoScroll.cs"
 "Assets/Scripts/BackgroundMusic.cs"
+"Assets/Scripts/ButtonSound.cs"
 "Assets/Scripts/DialogueController.cs"
 "Assets/Scripts/EnterBattle.cs"
 "Assets/Scripts/PlayerAttackState.cs"
