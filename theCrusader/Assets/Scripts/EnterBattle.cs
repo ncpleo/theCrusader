@@ -15,7 +15,7 @@ public class enterBattle : MonoBehaviour
         }
         else if (other.gameObject.tag == "Battle2")
         {
-            SceneManager.LoadScene("BattleScene2");
+            SceneManager.LoadScene("DialogueScene2");
 
         }
         else if (other.gameObject.tag == "Battle3")

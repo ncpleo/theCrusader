@@ -16,7 +16,7 @@ public class UI : MonoBehaviour
 
     private void Start()
     {
-        textWriter.AddWriter(messageText, "The First Crusade was the only one to achieve its goal. Christian forces successfully captured Jerusalem on July 15, 1099. It marked the church¡¦s successful attempt to reclaim Jerusalem from the Muslims, driven by religious fervor and geopolitical concerns.", .025f, true);
+        textWriter.AddWriter(messageText, "The capture of Jerusalem from Muslim control marked the culmination of the First Crusade (1095-1102), a military campaign orchestrated by Western rulers, the Pope, and the Byzantine Empire. Jerusalem fell on July 15, 1099, after a brief siege. Three weeks later, the Crusaders repelled the Muslim relief army, declaring the First Crusade a great success in the Western world. The Crusaders overcame these difficulties despite serious challenges such as logistical problems, famine, disease, powerful enemies and internal conflicts. However, the Crusaders continued to conduct several Crusades over the next two centuries in defense of the Holy Land.", .025f, true);
     }
 
 }

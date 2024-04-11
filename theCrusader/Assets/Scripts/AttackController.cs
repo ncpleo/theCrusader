@@ -30,7 +30,7 @@ public class AttackController : MonoBehaviour
                 SceneManager.LoadScene("MapScene4");
             }else if (level == 3)
             {
-                SceneManager.LoadScene("WinScene");
+                SceneManager.LoadScene("CelebrateScene");
             }
         }
     }

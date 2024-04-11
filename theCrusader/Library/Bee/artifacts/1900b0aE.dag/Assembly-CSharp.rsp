@@ -367,6 +367,9 @@
 "Assets/Scripts/BackgroundMusic.cs"
 "Assets/Scripts/ButtonSound.cs"
 "Assets/Scripts/DialogueController.cs"
+"Assets/Scripts/DialogueController1.cs"
+"Assets/Scripts/DialogueController2.cs"
+"Assets/Scripts/DialogueController3.cs"
 "Assets/Scripts/EnterBattle.cs"
 "Assets/Scripts/PlayerAttackState.cs"
 "Assets/Scripts/PlayerDeadState.cs"
@@ -377,6 +380,7 @@
 "Assets/Scripts/UI.cs"
 "Assets/Scripts/Uirotation.cs"
 "Assets/Scripts/UnitMovement.cs"
+"Assets/Scripts/WinSceneManager.cs"
 -langversion:9.0
 
 /deterministic

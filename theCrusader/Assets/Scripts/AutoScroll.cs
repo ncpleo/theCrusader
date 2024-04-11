@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class AutoScroll : MonoBehaviour
 {
-    float speed = 100.0f;
-    //float textPosBegin = -1558.0f;
-    float boundaryTextEnd = 1558.0f;
+    float speed = 75.0f;
+    //float textPosBegin = -1450.0f;
+    float boundaryTextEnd = 1450.0f;
 
     RectTransform rectTransform;
     [SerializeField]
@@ -33,9 +33,11 @@ public class AutoScroll : MonoBehaviour
             StartCoroutine(BackgroundMusic.FadeOut(bgm.audioSource, 3f));
             if (!bgm.audioSource.isPlaying)
             {
-                SceneManager.LoadScene("MapScene");
+                SceneManager.LoadScene("DialogueScene1");
             }
 
         }
     }
+
+    
 }
