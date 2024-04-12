@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/3.2_Map.unity
+- path: Assets/Medival Fantasy Village/export.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
