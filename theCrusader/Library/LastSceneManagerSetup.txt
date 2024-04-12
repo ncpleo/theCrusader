@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Models/3d_EventScene.unity
+- path: Assets/Scenes/3.2_Map.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

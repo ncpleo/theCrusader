@@ -63,15 +63,15 @@
     <Compile Include="Assets\Scripts\PlayerIdleState.cs" />
     <Compile Include="Assets\Scripts\PlayerDeadState.cs" />
     <Compile Include="Assets\Scripts\DialogueController2.cs" />
+    <Compile Include="Assets\Scripts\3.1Map\SpriteHover.cs" />
     <Compile Include="Assets\Scripts\Uirotation.cs" />
     <Compile Include="Assets\Scripts\ButtonSound.cs" />
-    <Compile Include="Assets\Scripts\SpriteHover.cs" />
+    <Compile Include="Assets\Scripts\3dEvent\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerAttackState.cs" />
     <Compile Include="Assets\Medival Fantasy Village\Medival Village\Demo Scripts\IPBR_SupportAndReview.cs" />
     <Compile Include="Assets\Medival Fantasy Village\Medival Village\Demo Scripts\IPBR_CharacterEquip.cs" />
     <Compile Include="Assets\Scripts\StartGameController.cs" />
     <Compile Include="Assets\Medival Fantasy Village\Medival Village\Demo Scripts\PCMToggle.cs" />
-    <Compile Include="Assets\Models\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerFollowState.cs" />
     <Compile Include="Assets\Medival Fantasy Village\Medival Village\Demo Scripts\ExtendedFlycam.cs" />
     <Compile Include="Assets\Scripts\AttackController.cs" />
@@ -79,16 +79,17 @@
     <Compile Include="Assets\Fonts\Script\scriptTexttest.cs" />
     <Compile Include="Assets\Medival Fantasy Village\Medival Village\Demo Scripts\IPBR_EnvironmentWarning.cs" />
     <Compile Include="Assets\Scripts\UI.cs" />
-    <Compile Include="Assets\Models\dialogueTrigger.cs" />
     <Compile Include="Assets\Scripts\UnitMovement.cs" />
     <Compile Include="Assets\Scripts\DialogueController3.cs" />
     <Compile Include="Assets\Scripts\TextWriter.cs" />
     <Compile Include="Assets\Scripts\DialogueController.cs" />
-    <Compile Include="Assets\Scripts\SceneController.cs" />
     <Compile Include="Assets\Scripts\AutoScroll.cs" />
+    <Compile Include="Assets\Scripts\3.2Map\Scene32Controller.cs" />
+    <Compile Include="Assets\Scripts\3.1Map\SceneController.cs" />
     <Compile Include="Assets\Scripts\DialogueController1.cs" />
     <Compile Include="Assets\Scripts\BackgroundMusic.cs" />
     <Compile Include="Assets\Scripts\WinSceneManager.cs" />
+    <Compile Include="Assets\Scripts\3dEvent\dialogueTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
