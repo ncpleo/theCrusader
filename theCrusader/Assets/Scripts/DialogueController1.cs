@@ -53,7 +53,7 @@ public class DialogueController1 : MonoBehaviour
             DialogueAnimator.SetTrigger("Exit");
             Index = 0;
             //StartDialogue = true;
-            SceneManager.LoadScene("MapScene");
+            SceneManager.LoadScene("3.1_Map");
         }
 
         if (Index == 3) {
