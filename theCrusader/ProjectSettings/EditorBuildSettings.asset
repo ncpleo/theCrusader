@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CelebrateScene.unity
     guid: ad5900e796a29fa4ca1b48b9591fcb46
+  - enabled: 1
+    path: Assets/Scenes/3.1_Map.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
