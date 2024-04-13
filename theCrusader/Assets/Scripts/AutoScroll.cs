@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class AutoScroll : MonoBehaviour
 {
-    float speed = 75.0f;
+    public float speed = 75.0f;
     //float textPosBegin = -1450.0f;
     float boundaryTextEnd = 1450.0f;
 

@@ -18,8 +18,17 @@ public class AttackController : MonoBehaviour
 
     private void Update()
     {
+        ChangeScene();
+    }
+
+    void ChangeScene() {
         if (win)
-        {         
+        {
+            if (SceneManager.GetActiveScene().name == "3.3_Constinople")
+            {
+                return;
+            }
+
             level++;
             if (level == 1)
             {
@@ -28,7 +37,8 @@ public class AttackController : MonoBehaviour
             else if (level == 2)
             {
                 SceneManager.LoadScene("MapScene4");
-            }else if (level == 3)
+            }
+            else if (level == 3)
             {
                 SceneManager.LoadScene("CelebrateScene");
             }

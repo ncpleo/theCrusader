@@ -29,7 +29,7 @@ public class SpriteHover : MonoBehaviour
     private void OnMouseDown()
     {
         if (SceneManager.GetActiveScene().name == "3.1_Map")
-            SceneManager.LoadScene("BattleScene1");
+            SceneManager.LoadScene("3.3_Constinople");
         else if (SceneManager.GetActiveScene().name == "3.2_Map")
         {
             StartCoroutine(GameObject.Find("SceneController").GetComponent<Scene32Controller>().FadeIn(GameObject.Find("Window").GetComponent<CanvasGroup>(), 0.2f));

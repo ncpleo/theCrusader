@@ -33,7 +33,7 @@ public class SceneAntiochController : MonoBehaviour
                 else
                 {
                     anim.SetTrigger("Fade");
-                    SceneManager.LoadScene("3.2_Map");
+                    SceneManager.LoadScene("3d_Interactive");
                 }
             }
         }

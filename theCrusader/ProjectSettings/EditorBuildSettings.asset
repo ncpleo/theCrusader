@@ -59,4 +59,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3d_BattleScene.unity
     guid: 5b6a6326d05c59448955e8fe93d867de
+  - enabled: 1
+    path: Assets/Scenes/3d_Interactive.unity
+    guid: fd86c8e4c4429d54ab860b43a5e2b8ea
+  - enabled: 1
+    path: Assets/Scenes/3.3_Constinople.unity
+    guid: 5a9def032cff4fe4e835c9dd2a97fa84
   m_configObjects: {}
