@@ -49,7 +49,7 @@ public class Scene32Controller : MonoBehaviour
 
         if (fadeIndex == 4) {       //leader list
             if (Input.GetMouseButtonDown(0)) {
-                SceneManager.LoadScene("BattleScene2");
+                SceneManager.LoadScene("3d_BattleScene");
             }
         }
 

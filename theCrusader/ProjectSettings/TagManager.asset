@@ -10,6 +10,7 @@ TagManager:
   - Battle3
   - Battle1
   - Event1
+  - Apple
   layers:
   - Default
   - TransparentFX
