@@ -32,11 +32,11 @@ public class AttackController : MonoBehaviour
             level++;
             if (level == 1)
             {
-                SceneManager.LoadScene("MapScene2");
+                SceneManager.LoadScene("CelebrateScene");
             }
             else if (level == 2)
             {
-                SceneManager.LoadScene("MapScene4");
+                SceneManager.LoadScene("CelebrateScene");
             }
             else if (level == 3)
             {

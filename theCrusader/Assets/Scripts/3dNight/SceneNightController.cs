@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SceneNightController : MonoBehaviour
 {
@@ -23,6 +24,10 @@ public class SceneNightController : MonoBehaviour
         {
             audioSource.PlayOneShot(click);
             msg.alpha = 0;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            SceneManager.LoadScene("MapScene4");
         }
     }
 

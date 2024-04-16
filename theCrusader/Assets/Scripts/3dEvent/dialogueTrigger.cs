@@ -37,7 +37,7 @@ public class dialogueTrigger : MonoBehaviour
                 {
                     msg.alpha = 0;
                     GameObject.Find("shieldImg").GetComponent<Image>().enabled = false;
-                    SceneManager.LoadScene("MapScene3");
+                    SceneManager.LoadScene("BattleScene3");
 
                 }
 

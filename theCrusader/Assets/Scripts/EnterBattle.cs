@@ -20,7 +20,7 @@ public class enterBattle : MonoBehaviour
         }
         else if (other.gameObject.tag == "Battle3")
         {
-            SceneManager.LoadScene("BattleScene3");
+            SceneManager.LoadScene("3d_EventScene");
 
         }
         else if (other.gameObject.tag == "Event1")
